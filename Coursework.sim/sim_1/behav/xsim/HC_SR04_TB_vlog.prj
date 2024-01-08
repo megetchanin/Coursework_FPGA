@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Coursework.srcs/sources_1/new/HC-SR04.sv" \
+"../../../../Coursework.srcs/sources_1/new/UART_tx.sv" \
+"../../../../Coursework.srcs/sources_1/new/bcd.sv" \
+"../../../../Coursework.srcs/sources_1/new/top.sv" \
+"../../../../Coursework.srcs/sim_1/new/HC_SR04_TB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

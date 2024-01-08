@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"HC_SR04_TB_time_synth.v" \
+
+sv xil_defaultlib  \
+"../../../../../Coursework.srcs/sim_1/new/HC_SR04_TB.sv" \
+
+# Do not sort compile order
+nosort
