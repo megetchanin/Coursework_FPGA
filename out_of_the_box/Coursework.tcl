@@ -23,12 +23,12 @@
 # 2. The following source(s) files that were local or imported into the original project.
 #    (Please see the '$orig_proj_dir' and '$origin_dir' variable setting below at the start of the script)
 #
-#    "E:/Vivado/out_of_the_box/HC-SR04.sv"
-#    "E:/Vivado/out_of_the_box/UART_tx.sv"
-#    "E:/Vivado/out_of_the_box/bcd.sv"
-#    "E:/Vivado/out_of_the_box/top.sv"
-#    "E:/Vivado/out_of_the_box/HC_SR04.xdc"
-#    "E:/Vivado/out_of_the_box/HC_SR04_TB.sv"
+#    "./HC-SR04.sv"
+#    "./UART_tx.sv"
+#    "./bcd.sv"
+#    "./top.sv"
+#    "./HC_SR04.xdc"
+#    "./HC_SR04_TB.sv"
 #
 # 3. The following remote source files that were added to the original project:-
 #
